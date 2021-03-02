@@ -33,6 +33,7 @@ public class RelativeLoc {
 		
 		WebElement Memorial =	driver.findElement(By.xpath("//label[normalize-space()='Memorial Plaque Visibility']"));
 		driver.findElement(withTagName("input").toLeftOf(Memorial)).click();
+		// new for update first change 
 	}
 
 }
